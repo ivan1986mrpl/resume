@@ -11,6 +11,7 @@
     transition: 0.6s all;
     &__link {
         &:hover {
+            transform: scale(1.10);
             svg path {
                 fill: $hover-color;
             }
