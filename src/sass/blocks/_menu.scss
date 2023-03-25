@@ -17,6 +17,10 @@
     span.long {
         width: 36px;        
     }
+    transition: all 0.6s;
+    &:hover {
+        transform: scale(1.09);
+    }
 }
 
 .menu {
@@ -49,6 +53,10 @@
         top: 25px;
         right: 25px;
         cursor: pointer;
+        transition: all 0.6s;
+        &:hover {
+            transform: scale(1.09);
+        }
     }
     &__list {
         list-style-type: none;
@@ -92,7 +100,7 @@
         transition: all 0.6s;
         a {
             &:hover {
-                transform: scale(1.08);
+                transform: scale(1.15);
             }
         }        
     }    
