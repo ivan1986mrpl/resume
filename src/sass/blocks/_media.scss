@@ -36,7 +36,8 @@
         &__ratings {
             grid-template-columns: repeat(auto-fit, 350px);
             grid-auto-rows: minmax(70px, auto);
-            justify-content: space-between;
+            justify-content: space-around;
+            row-gap: 35px;
             padding: 0 30px;
         }
     }
@@ -46,7 +47,7 @@
             grid-auto-rows: 280px;
             justify-content: space-around;
             row-gap: 35px;
-            .horizonal, .vertical {
+            .horizontal, .vertical {
                 grid-row: unset;
                 grid-column: unset;
             }
@@ -70,7 +71,12 @@
     }.title {
         &_fz36 {
             font-size: 30px;
+            line-height: 42px;
+            margin-top: 26px;
         }
+    }
+    .devider {
+        margin: 15px auto 0 auto;
     }
     .about {    
         &__wrapper {
@@ -119,9 +125,9 @@
         &__form {
             grid-template: 45px 190px 45px / repeat(2, 195px);
         }
-        &__btn {
+        &__button {
             padding: 8px 25px;
-            line-height: 16px;
+            line-height: 14px;
         }
     }
 }
